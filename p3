@@ -1,0 +1,9 @@
+num, i = 600851475143, 2
+
+while i < num:
+    if num%i == 0:
+        num = num/i
+        i = 2
+    else:
+        i+=1
+print(num)
